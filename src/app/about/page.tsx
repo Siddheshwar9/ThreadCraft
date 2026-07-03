@@ -28,7 +28,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg md:text-xl max-w-2xl mx-auto font-light text-ivory/80"
           >
-            A legacy of precision, elegance, and timeless style.
+            Bridging the gap between skilled local tailors and customers who value perfect fit and unique style.
           </motion.p>
         </div>
       </section>
@@ -43,13 +43,16 @@ export default function AboutPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <h2 className="text-gold font-medium tracking-widest uppercase text-sm mb-3">Since 1995</h2>
-              <h3 className="font-playfair text-4xl font-bold mb-6">The ThreadCraft Legacy</h3>
+              <h2 className="text-gold font-medium tracking-widest uppercase text-sm mb-3">Why We Exist</h2>
+              <h3 className="font-playfair text-4xl font-bold mb-6">The ThreadCraft Story</h3>
               <p className="text-charcoal/80 font-light leading-relaxed mb-6">
-                Founded in the heart of the fashion district, ThreadCraft began with a simple yet ambitious goal: to redefine the standards of bespoke tailoring. For over two decades, we have dedicated ourselves to the art of creating garments that are not just worn, but experienced.
+                Custom clothing has always held a special place in people&apos;s hearts — but for different reasons across generations. The <strong className="font-medium text-charcoal">new generation</strong> craves unique styling that reflects their individuality, while the <strong className="font-medium text-charcoal">older generation</strong> values the perfect fit that only a skilled tailor can achieve. Yet finding the right tailor has always been a challenge — relying on word of mouth, limited visibility, and no way to preview their work.
+              </p>
+              <p className="text-charcoal/80 font-light leading-relaxed mb-6">
+                That&apos;s why we built <strong className="font-medium text-charcoal">ThreadCraft</strong> — a platform that bridges the gap between talented local tailors and the customers who need them. We connect you with the best artisans in your area, letting you browse their portfolios, see their craftsmanship online, read reviews from real customers, and book appointments — all from the comfort of your home.
               </p>
               <p className="text-charcoal/80 font-light leading-relaxed">
-                Our mission is to empower individuals through impeccable style and unmatched fit. We envision a world where clothing is a true reflection of one's personality and aspirations, crafted sustainably and ethically by master artisans.
+                Our mission is simple: to make bespoke tailoring accessible to everyone. Whether you&apos;re a young professional looking for a statement piece or someone who simply wants clothes that fit like they were made for you — because they <em>are</em> — ThreadCraft brings the tailor&apos;s craft to your fingertips.
               </p>
             </motion.div>
             <motion.div
@@ -64,8 +67,8 @@ export default function AboutPage() {
                 style={{ backgroundImage: "url('https://images.unsplash.com/photo-1556905055-8f358a7a47b2?q=80&w=1000&auto=format&fit=crop')" }}
               />
               <div className="absolute -bottom-8 -left-8 bg-charcoal text-ivory p-8 max-w-xs shadow-xl hidden md:block">
-                <p className="font-playfair text-xl italic mb-2">"True luxury is in the details."</p>
-                <p className="text-sm font-light text-gold uppercase tracking-wider">- The Founders</p>
+                <p className="font-playfair text-xl italic mb-2">&quot;Connecting skilled hands with those who appreciate the craft.&quot;</p>
+                <p className="text-sm font-light text-gold uppercase tracking-wider">- The ThreadCraft Team</p>
               </div>
             </motion.div>
           </div>
